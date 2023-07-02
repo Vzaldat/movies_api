@@ -14,7 +14,8 @@ import (
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 )
-
+//this is connection clause, enter your own credentials like password and check the connection type
+//The following section of lines(till the next comment) is just an example of the connection strings
 const connectionString = "mongodb+srv://vishaldatta2002:vzal123@cluster1.xxpakzp.mongodb.net/?retryWrites=true&w=majority"
 const dbName = "netflix"
 const colName = "watchlist"
